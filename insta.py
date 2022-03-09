@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Chrome('C:/Users/tadim/OneDrive/Desktop/dev/projects/dependencies/chromedriver_win32/chromedriver.exe')
 driver.get('https://www.instagram.com/')
 
-#instagram access
+#Instagram access
 username = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='username']")))
 password = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='password']")))
 
