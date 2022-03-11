@@ -15,7 +15,7 @@ Selenium requires a web driver, I used ChromeDriver. Go to  https://chromedriver
 
 After using selenium to access a social media account on Instagram or Facebook, the scraper can perform two actions…
 
-Search add keywords in a specific niche or scroll through the accounts feed collecting ad targeted to the account.
+Search ad keywords in a specific niche or scroll through the accounts feed collecting ad targeted to the account.
 
 The account is currently pre-created to follow a specific niche, (e.g., skincare, makeup, jewelry, pet supplies). In the future I will be automating this process as well.
 
