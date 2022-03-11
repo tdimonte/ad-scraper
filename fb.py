@@ -17,3 +17,5 @@ password.clear()
 email.send_keys('selscraper@gmail.com')
 password.send_keys('SeleniumScraper3')
 login = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[type='submit']"))).click()
+
+home = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "a[aria-label='Home']"))).click()
